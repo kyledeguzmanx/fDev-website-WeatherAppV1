@@ -5,7 +5,7 @@ fetch(URL, {
 	"method": "GET",
 	"headers": {
 		"x-rapidapi-host": "community-open-weather-map.p.rapidapi.com",
-		"x-rapidapi-key": 
+		"x-rapidapi-key": key 
 	}
 })
 .then(response => {
