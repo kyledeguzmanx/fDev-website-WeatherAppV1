@@ -3,7 +3,10 @@
 
 ## TECHNOLOGY USED
 -  Current Weather Data API by [OpenWeatherMap](https://openweathermap.org/)   
-- JSON  
+- JSON   
+- Live SASS Compiler  
+- SASS 
 
 ## CREDITS 
-- RapidAPI API PLATFORM
+- RapidAPI API PLATFORM  
+- W3Schools Data Object Functions Tutorials   

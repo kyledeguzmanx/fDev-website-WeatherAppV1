@@ -22,7 +22,7 @@ fetch(URL)
 		return response.json();
 	})
 	.then(response => {
-		console.log(response.wind.speed *  2.237);
+		console.log(response.name);
 	})
 
 /*
