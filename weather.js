@@ -5,7 +5,14 @@ var key = config.KEY_SECOND;
 var [latitude, longitude] = [34.052235, -118.243683];
 const URL =  "https://api.openweathermap.org/data/2.5/weather?lat=" + latitude +"&lon=" + longitude + "&appid=" + key ;
 
+var today = new Date();
+const days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+const months = ["January","February","March","April","May","June","July","August","September","October","November","December"];
+var [day, month, date] = [today.getDay(),today.getMonth(), today.getDate()];
+day = days[day];
+month = months[month];
 
+console.log(day, month,date);
 
 
 
