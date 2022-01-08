@@ -1,6 +1,7 @@
 
-const URL =  "https://community-open-weather-map.p.rapidapi.com/weather?q=Los%20Angeles%2C%20USA&lat=0&lon=0&callback=test&id=2172797&lang=null&units=imperial&mode=xml";
-var key = config.MY_API_KEY;
+var key = config.KEY_SECOND;
+const URL =  "api.openweathermap.org/data/2.5/weather?lat=34.052235&lon=-118.243683&appid=" + key + "";
+
 fetch(URL, {
 	"method": "GET",
 	"headers": {
@@ -9,7 +10,7 @@ fetch(URL, {
 	}
 })
 .then(response => {
-	console.log(response);
+	console.log(response.body);
 })
 .catch(err => {
 	console.error(err);
