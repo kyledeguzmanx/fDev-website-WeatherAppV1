@@ -11,7 +11,7 @@ day = days[day];
 month = months[month];
 
 const headingCity = document.getElementById("heading-city-name");
-
+const dateInformation = document.getElementById("date-information");
 
 fetch(URL)
 	.then(response => {
@@ -20,6 +20,7 @@ fetch(URL)
 	.then(response => {
 		console.log(response.name);
         headingCity.textContent = response.name;
+        dateInformation.textContent = day + ", " + month + " " + date;
 	})
 
 /*
