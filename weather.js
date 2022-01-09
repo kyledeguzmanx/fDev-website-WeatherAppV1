@@ -1,9 +1,7 @@
-
-
-
 var key = config.KEY_SECOND;
 var [latitude, longitude] = [34.052235, -118.243683];
 const URL =  "https://api.openweathermap.org/data/2.5/weather?lat=" + latitude +"&lon=" + longitude + "&appid=" + key ;
+
 
 var today = new Date();
 const days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
@@ -12,9 +10,7 @@ var [day, month, date] = [today.getDay(),today.getMonth(), today.getDate()];
 day = days[day];
 month = months[month];
 
-console.log(day, month,date);
-
-
+const headingCity = document.getElementById("headingCity");
 
 
 fetch(URL)
@@ -23,6 +19,7 @@ fetch(URL)
 	})
 	.then(response => {
 		console.log(response.name);
+        headingCity.textContent = response.name;
 	})
 
 /*
