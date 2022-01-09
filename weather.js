@@ -12,6 +12,7 @@ month = months[month];
 
 const headingCity = document.getElementById("heading-city-name");
 const dateInformation = document.getElementById("date-information");
+const degreeInformation = document.getElementById("degree-information");
 
 fetch(URL)
 	.then(response => {
@@ -21,6 +22,8 @@ fetch(URL)
 		console.log(response.name);
         headingCity.textContent = response.name;
         dateInformation.textContent = day + ", " + month + " " + date;
+        degreeInformation.textContent = Math.floor(((response.main.temp - 273.15) * 9/5) + 32);
+
 	})
 
 /*
