@@ -10,7 +10,7 @@ var [day, month, date] = [today.getDay(),today.getMonth(), today.getDate()];
 day = days[day];
 month = months[month];
 
-const headingCity = document.getElementById("headingCity");
+const headingCity = document.getElementById("heading-city-name");
 
 
 fetch(URL)
