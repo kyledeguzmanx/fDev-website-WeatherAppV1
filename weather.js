@@ -33,8 +33,8 @@ fetch(URL)
         }
         descriptionInformation.textContent = description.charAt(0).toUpperCase() + description.slice(1);
 
-        highTemp.textContent = "high: " + Math.floor(((response.main.temp_max - 273.15) * 9/5) + 32) + "           .";
-        lowTemp.textContent = "low: " + Math.floor(((response.main.temp_min - 273.15) * 9/5) + 32);
+        highTemp.textContent = "High: " + Math.floor(((response.main.temp_max - 273.15) * 9/5) + 32) + "  |  ";
+        lowTemp.textContent = " Low: " + Math.floor(((response.main.temp_min - 273.15) * 9/5) + 32);
 	})
 
 /*
