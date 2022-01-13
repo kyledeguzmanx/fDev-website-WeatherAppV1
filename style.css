@@ -37,6 +37,8 @@ body {
   margin-left: 15vw;
   margin-top: 15vh;
   border-radius: 25px;
+  -webkit-box-shadow: 5px 5px 80px 2px black;
+          box-shadow: 5px 5px 80px 2px black;
 }
 
 .information-container .basic-information {
