@@ -27,7 +27,10 @@ fetch(URL)
         dateInformation.textContent = day + ", " + month + " " + date;
         degreeInformation.textContent = Math.floor(((response.main.temp - 273.15) * 9/5) + 32);
 
-        let description = response.weather[0].description + "y";
+        let description = response.weather[0].description;
+        if(description.charAt(description.length-1) != "y"){
+            description += "y";
+        }
         descriptionInformation.textContent = description.charAt(0).toUpperCase() + description.slice(1);
 
         highTemp.textContent = "high: " + Math.floor(((response.main.temp_max - 273.15) * 9/5) + 32) + "           .";
