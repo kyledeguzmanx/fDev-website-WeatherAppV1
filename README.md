@@ -22,4 +22,4 @@ A weather website for Los Angeles California built with OpenWeatherMap API
 - RapidAPI API PLATFORM   
 - ToUppercase by [StackOverFlow Response](https://stackoverflow.com/questions/1026069/how-do-i-make-the-first-letter-of-a-string-uppercase-in-javascript)
 - W3Schools Data Object Functions Tutorials   
-
+- W3 Schools [Box Shadow Documentation](https://www.w3schools.com/cssref/css3_pr_box-shadow.asp)
