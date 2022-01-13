@@ -14,12 +14,22 @@ Initially, I was going to create a text box so the user can input their zip code
 - Live SASS Compiler Extension on VS Code  
 - SASS 
 
+## FEATURES
+- Displays Day and Date  
+- Displays Location  
+- Displays Degrees in Farenheit  
+- Displays Description such as "hazy", "cloudy", "rain", "overcast clouds" etc.  
+- Displays max and min temperatures, wind speed, humidity, pressure, cloudiness, and visibility.
+- Responsive Design 
+
 ## SCREENSHOTS
 ### PHASE 1
 ![Screen1](https://github.com/kyledeguzmanx/fDev-website-WeatherAppV1/blob/master/img/D1S100.png)
 ### PHASE 2
 ![SCREEN2](https://github.com/kyledeguzmanx/fDev-website-WeatherAppV1/blob/master/img/D2S100.png)
 ![SCREEN2](https://github.com/kyledeguzmanx/fDev-website-WeatherAppV1/blob/master/img/D2S101.png)
+
+
 ## FUTURE IMPROVEMENTS
 - add Google Maps Embed  
 - add ability to change zip codes  
