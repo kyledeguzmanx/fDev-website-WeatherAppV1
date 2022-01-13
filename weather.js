@@ -1,6 +1,7 @@
 var key = config.KEY_SECOND;
 var [latitude, longitude] = [34.052235, -118.243683];
-const URL =  "https://api.openweathermap.org/data/2.5/weather?lat=" + latitude +"&lon=" + longitude + "&appid=" + key ;
+var zipcode= 91402;
+const URL =  "https://api.openweathermap.org/data/2.5/weather?zip=" + zipcode + "&appid=" + key ;
 
 
 var today = new Date();
