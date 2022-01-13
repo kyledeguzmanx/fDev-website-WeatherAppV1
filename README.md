@@ -6,6 +6,7 @@ A weather website for Los Angeles California built with OpenWeatherMap API. The 
 ## TECHNOLOGY USED
 - Current Weather Data API by [OpenWeatherMap](https://openweathermap.org/)   
 - Google Fonts 
+- HTML Geolocation API  
 - JSON FILE FORMAT  
 - Live SASS Compiler Extension on VS Code  
 - SASS 
@@ -25,4 +26,5 @@ A weather website for Los Angeles California built with OpenWeatherMap API. The 
 - RapidAPI API PLATFORM   
 - ToUppercase by [StackOverFlow Response](https://stackoverflow.com/questions/1026069/how-do-i-make-the-first-letter-of-a-string-uppercase-in-javascript)
 - W3Schools Data Object Functions Tutorials   
-- W3 Schools [Box Shadow Documentation](https://www.w3schools.com/cssref/css3_pr_box-shadow.asp)
+- W3Schools [Box Shadow Documentation](https://www.w3schools.com/cssref/css3_pr_box-shadow.asp)  
+- W3Schools [HTML Geolocation API Documentation](https://www.w3schools.com/html/html5_geolocation.asp)  
