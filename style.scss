@@ -6,3 +6,17 @@ body,html{
 body{
     font-size: 62.5%;
 }
+.background-img{
+    
+    background: url(img/LA-Banner.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 43vh;
+    z-index:2;
+    .background-filter{
+        height: 43vh;
+        background-color: rgba(0,0,225,0.5);
+        z-index:1;
+      }
+  }
+

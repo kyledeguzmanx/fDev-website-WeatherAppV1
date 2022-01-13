@@ -14,6 +14,8 @@ const headingCity = document.getElementById("heading-city-name");
 const dateInformation = document.getElementById("date-information");
 const degreeInformation = document.getElementById("degree-information");
 const descriptionInformation = document.getElementById("description-information");
+const highTemp = document.getElementById("high-information");
+const lowTemp = document.getElementById("low-information");
 
 fetch(URL)
 	.then(response => {
@@ -27,6 +29,9 @@ fetch(URL)
 
         let description = response.weather[0].description + "y";
         descriptionInformation.textContent = description.charAt(0).toUpperCase() + description.slice(1);
+
+        highTemp.textContent = "high: " + Math.floor(((response.main.temp_max - 273.15) * 9/5) + 32) + "           .";
+        lowTemp.textContent = "low: " + Math.floor(((response.main.temp_min - 273.15) * 9/5) + 32);
 	})
 
 /*
