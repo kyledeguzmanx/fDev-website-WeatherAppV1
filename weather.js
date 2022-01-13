@@ -28,9 +28,9 @@ fetch(URL)
         degreeInformation.textContent = Math.floor(((response.main.temp - 273.15) * 9/5) + 32);
 
         let description = response.weather[0].description;
-        if(description.charAt(description.length-1) != "y"){
+        /*if(description.charAt(description.length-1) != "y"){
             description += "y";
-        }
+        }*/
         descriptionInformation.textContent = description.charAt(0).toUpperCase() + description.slice(1);
 
 
