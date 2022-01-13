@@ -14,6 +14,7 @@ A weather website for Los Angeles California built with OpenWeatherMap API
 - add ability to change zip codes  
 
 ## CREDITS 
+- [Coloors](https://coolors.co/palettes/trending) Blue and White Color Pallelte
 - RapidAPI API PLATFORM   
 - ToUppercase by [StackOverFlow Response](https://stackoverflow.com/questions/1026069/how-do-i-make-the-first-letter-of-a-string-uppercase-in-javascript)
 - W3Schools Data Object Functions Tutorials   
