@@ -1,7 +1,10 @@
 # WEATHER APP
 
 ## INTRODUCTION
-A weather website for Los Angeles California built with OpenWeatherMap API. The website will show the location, day, date, temperature, and other weather information. 
+A weather website built with OpenWeatherMap API. The website will show the location, day, date, temperature, and other weather information. This project was originally for Los Angeles City. However, I wanted to broaden that. 
+
+
+Initially, I was going to create a text box so the user can input their zip code. However, I ultimately decided to use the HTML Geolocation API. This will ask the user to give permission to access their location. They will approve it, and I will get their coordinates (lat and long) which will be passed to the API. If the Geolocation API is unavailable for the browser OR the user refuses to give us access, the site will default to Los Angeles City. 
 
 ## TECHNOLOGY USED
 - Current Weather Data API by [OpenWeatherMap](https://openweathermap.org/)   
@@ -16,7 +19,7 @@ A weather website for Los Angeles California built with OpenWeatherMap API. The 
 ![Screen1](https://github.com/kyledeguzmanx/fDev-website-WeatherAppV1/blob/master/img/D1S100.png)
 ### PHASE 2
 ![SCREEN2](https://github.com/kyledeguzmanx/fDev-website-WeatherAppV1/blob/master/img/D2S100.png)
-![SCREEN2](https://github.com/kyledeguzmanx/fDev-website-WeatherAppV1/blob/master/img/D2S200.png)
+![SCREEN2](https://github.com/kyledeguzmanx/fDev-website-WeatherAppV1/blob/master/img/D2S101.png)
 ## FUTURE IMPROVEMENTS
 - add Google Maps Embed  
 - add ability to change zip codes  
