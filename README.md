@@ -29,14 +29,14 @@ Initially, I was going to create a text box so the user can input their zip code
 ![SCREEN2](https://github.com/kyledeguzmanx/fDev-website-WeatherAppV1/blob/master/img/D2S100.png)
 ![SCREEN2](https://github.com/kyledeguzmanx/fDev-website-WeatherAppV1/blob/master/img/D2S101.png)
 ### Responsive Design
-![SCREEN2](https://github.com/kyledeguzmanx/fDev-website-WeatherAppV1/blob/master/img/D2S200.png)
-![SCREEN2](https://github.com/kyledeguzmanx/fDev-website-WeatherAppV1/blob/master/img/D2S201.png)
-![SCREEN2](https://github.com/kyledeguzmanx/fDev-website-WeatherAppV1/blob/master/img/D2S202.png)
-![SCREEN2](https://github.com/kyledeguzmanx/fDev-website-WeatherAppV1/blob/master/img/D2S203.png)
-![SCREEN2](https://github.com/kyledeguzmanx/fDev-website-WeatherAppV1/blob/master/img/D2S204.png)
-![SCREEN2](https://github.com/kyledeguzmanx/fDev-website-WeatherAppV1/blob/master/img/D2S205.png)
+![SCREEN2](https://github.com/kyledeguzmanx/fDev-website-WeatherAppV1/blob/master/img/DS200.png)
+![SCREEN2](https://github.com/kyledeguzmanx/fDev-website-WeatherAppV1/blob/master/img/DS201.png)
+![SCREEN2](https://github.com/kyledeguzmanx/fDev-website-WeatherAppV1/blob/master/img/DS202.png)
+![SCREEN2](https://github.com/kyledeguzmanx/fDev-website-WeatherAppV1/blob/master/img/DS203.png)
+![SCREEN2](https://github.com/kyledeguzmanx/fDev-website-WeatherAppV1/blob/master/img/DS204.png)
+![SCREEN2](https://github.com/kyledeguzmanx/fDev-website-WeatherAppV1/blob/master/img/DS205.png)
 ### GEOLOCATION API
-![SCREEN2](https://github.com/kyledeguzmanx/fDev-website-WeatherAppV1/blob/master/img/D2S206.png)
+![SCREEN2](https://github.com/kyledeguzmanx/fDev-website-WeatherAppV1/blob/master/img/DS206.png)
 ## FUTURE IMPROVEMENTS
 - add Google Maps Embed  
 - add ability to change zip codes  
