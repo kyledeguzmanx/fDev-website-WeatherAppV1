@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@100&family=Rajdhani:wght@300&display=swap");
 body, html {
   margin: 0;
   padding: 0;
@@ -7,7 +8,9 @@ body {
   font-size: 62.5%;
   background-color: #f1faee;
   height: 100vh;
+  max-height: 100vh;
   width: 100vw;
+  max-width: 100vw;
 }
 
 .background-img {
@@ -25,10 +28,15 @@ body {
   background-color: rgba(29, 53, 87, 0.75);
 }
 
+.basic-information {
+  padding-top: 2.5rem;
+  line-height: 0.14;
+}
+
 .information-container {
   position: absolute;
-  height: 70vh;
-  width: 70vw;
+  min-height: 70vh;
+  min-width: 70vw;
   background-color: white;
   z-index: 2;
   margin-left: 15vw;
@@ -37,7 +45,14 @@ body {
 }
 
 .information-container h1 {
-  font-size: 3rem;
+  font-size: 3.5rem;
   text-align: center;
+  font-family: 'Barlow Semi Condensed', sans-serif;
+}
+
+.information-container #date-information {
+  text-align: center;
+  font-size: 1.5rem;
+  font-family: 'Rajdhani', sans-serif;
 }
 /*# sourceMappingURL=style.css.map */
