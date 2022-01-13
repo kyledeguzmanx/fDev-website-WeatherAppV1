@@ -5,6 +5,7 @@ A weather website for Los Angeles California built with OpenWeatherMap API
 
 ## TECHNOLOGY USED
 -  Current Weather Data API by [OpenWeatherMap](https://openweathermap.org/)   
+- Google Fonts 
 - JSON FILE FORMAT  
 - Live SASS Compiler Extension on VS Code  
 - SASS 
