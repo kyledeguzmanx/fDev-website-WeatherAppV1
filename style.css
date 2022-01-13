@@ -28,11 +28,6 @@ body {
   background-color: rgba(29, 53, 87, 0.75);
 }
 
-.basic-information {
-  padding-top: 2.5rem;
-  line-height: 0.14;
-}
-
 .information-container {
   position: absolute;
   min-height: 70vh;
@@ -44,15 +39,59 @@ body {
   border-radius: 25px;
 }
 
-.information-container h1 {
+.information-container .basic-information {
+  padding-top: 2.5rem;
+  line-height: 0.14;
+}
+
+.information-container .basic-information h1 {
   font-size: 3.5rem;
   text-align: center;
   font-family: 'Barlow Semi Condensed', sans-serif;
 }
 
-.information-container #date-information {
+.information-container .basic-information #date-information {
   text-align: center;
   font-size: 1.5rem;
   font-family: 'Rajdhani', sans-serif;
+}
+
+.information-container .weather-grid {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  min-height: 30vh;
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.information-container .weather-grid .col-1 {
+  width: 40%;
+  height: 100%;
+  border-style: solid;
+  border-color: transparent  black transparent  transparent;
+  line-height: 0.2;
+}
+
+.information-container .weather-grid .col-1 p {
+  font-size: 3.5rem;
+}
+
+.information-container .weather-grid .col-1 #description-information {
+  font-size: 1.4rem;
+}
+
+.information-container .weather-grid .col-2 {
+  width: 40%;
+  height: 100%;
 }
 /*# sourceMappingURL=style.css.map */
