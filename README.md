@@ -13,6 +13,8 @@ A weather website for Los Angeles California built with OpenWeatherMap API
 ## SCREENSHOTS
 ### PHASE 1
 ![Screen1](https://github.com/kyledeguzmanx/fDev-website-WeatherAppV1/blob/master/img/D1S100.png)
+### PHASE 2
+![SCREEN2](https://github.com/kyledeguzmanx/fDev-website-WeatherAppV1/blob/master/img/D2S100.png)
 
 ## FUTURE IMPROVEMENTS
 - add Google Maps Embed  
