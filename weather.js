@@ -1,8 +1,20 @@
 var key = config.KEY_SECOND;
 var [latitude, longitude] = [34.052235, -118.243683];
-var zipcode= 91402;
-const URL =  "https://api.openweathermap.org/data/2.5/weather?zip=" + zipcode + "&appid=" + key ;
+let URL =  "https://api.openweathermap.org/data/2.5/weather?lat=" + latitude +"&lon=" + longitude + "&appid=" + key ;
 
+/*
+var zipcode = 91205;
+const URL  =  "https://api.openweathermap.org/data/2.5/weather?zip=" + zipcode + "&appid=" + key ;
+*/
+
+if (navigator.geolocation) {
+    navigator.geolocation.getCurrentPosition((position)=>{
+        latitude = position.coords.latitude;
+        longitude = position.coords.longitude;
+        URL =  "https://api.openweathermap.org/data/2.5/weather?lat=" + latitude +"&lon=" + longitude + "&appid=" + key ;
+        console.log(latitude,longitude);
+    });
+  }
 
 var today = new Date();
 const days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
