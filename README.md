@@ -9,6 +9,10 @@ A weather website for Los Angeles California built with OpenWeatherMap API
 - Live SASS Compiler Extension on VS Code  
 - SASS 
 
+## SCREENSHOTS
+### PHASE 1
+![Screen1](https://github.com/kyledeguzmanx/fDev-website-WeatherAppV1/blob/master/img/D1S100.png)
+
 ## FUTURE IMPROVEMENTS
 - add Google Maps Embed  
 - add ability to change zip codes  
