@@ -45,7 +45,26 @@ fetch(URL)
         visibilityValue.textContent = "Visibility " + (response.visibility / 1609).toFixed(1) + " mi";
         
 	})
+    .catch (err => {
+        headingCity.textContent = "Los Angeles";
+        dateInformation.textContent = "Thursday" + ", " + "January" + " " + "13";
+        degreeInformation.textContent = "63";
 
+        let description = "Clear Sky";
+        /*if(description.charAt(description.length-1) != "y"){
+            description += "y";
+
+            //haze, few clouds, 
+        }*/
+        
+        highTemp.textContent = "High: 71";
+        lowTemp.textContent = " Low: 57";
+        windSpeed.textContent = "Wind: 0 mph";
+        humidity.textContent = "Humidity 44%";
+        cloudiness.textContent = "Cloudiness 20%";
+        pressure.textContent = "Pressure 30.2 in";
+        visibilityValue.textContent = "Visibility 6.2 mi";
+    })
 /*
 	 City                   response.name
     Day, Month Date         

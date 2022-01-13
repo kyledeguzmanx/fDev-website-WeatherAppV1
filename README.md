@@ -1,10 +1,10 @@
 # WEATHER APP
 
 ## INTRODUCTION
-A weather website for Los Angeles California built with OpenWeatherMap API
+A weather website for Los Angeles California built with OpenWeatherMap API. The website will show the location, day, date, temperature, and other weather information. 
 
 ## TECHNOLOGY USED
--  Current Weather Data API by [OpenWeatherMap](https://openweathermap.org/)   
+- Current Weather Data API by [OpenWeatherMap](https://openweathermap.org/)   
 - Google Fonts 
 - JSON FILE FORMAT  
 - Live SASS Compiler Extension on VS Code  
