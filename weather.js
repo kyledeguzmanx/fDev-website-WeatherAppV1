@@ -17,7 +17,7 @@ const descriptionInformation = document.getElementById("description-information"
 const [highTemp,lowTemp] = [document.getElementById("high-information"),document.getElementById("low-information")];
 const [windSpeed,humidity, cloudiness,pressure,visibilityValue] =[document.getElementById("wind-speed"),document.getElementById("humidity"),document.getElementById("cloudiness"),document.getElementById("pressure"),document.getElementById("visibility-value")];
 
-fetch(URL)
+fetch("URL")
 	.then(response => {
 		return response.json();
 	})
@@ -46,7 +46,7 @@ fetch(URL)
         
 	})
     .catch (err => {
-        headingCity.textContent = "Los Angeles";
+        headingCity.textContent = "Los Angeles(ERROR)";
         dateInformation.textContent = "Thursday" + ", " + "January" + " " + "13";
         degreeInformation.textContent = "63";
 
@@ -57,7 +57,7 @@ fetch(URL)
             //haze, few clouds, 
         }*/
         
-        highTemp.textContent = "High: 71";
+        highTemp.textContent = "High: 103";
         lowTemp.textContent = " Low: 57";
         windSpeed.textContent = "Wind: 0 mph";
         humidity.textContent = "Humidity 44%";
