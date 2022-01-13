@@ -12,11 +12,16 @@ if (navigator.geolocation) {
         latitude = position.coords.latitude;
         longitude = position.coords.longitude;
         URL =  "https://api.openweathermap.org/data/2.5/weather?lat=" + latitude +"&lon=" + longitude + "&appid=" + key ;
-        console.log(latitude,longitude);
+        console.log(latitude,longitude,URL);
+        displayData();
     });
-  }
+}
+else{
+    displayData();
+}
 
-var today = new Date();
+function displayData(){
+    var today = new Date();
 const days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
 const months = ["January","February","March","April","May","June","July","August","September","October","November","December"];
 var [day, month, date] = [today.getDay(),today.getMonth(), today.getDate()];
@@ -78,6 +83,11 @@ fetch(URL)
         pressure.textContent = "Pressure 30.2 in";
         visibilityValue.textContent = "Visibility 6.2 mi";
     })
+
+}
+
+
+
 /*
 	 City                   response.name
     Day, Month Date         
