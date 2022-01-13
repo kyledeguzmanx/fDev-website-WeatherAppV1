@@ -35,4 +35,9 @@ body {
   margin-top: 15vh;
   border-radius: 25px;
 }
+
+.information-container h1 {
+  font-size: 3rem;
+  text-align: center;
+}
 /*# sourceMappingURL=style.css.map */
