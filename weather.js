@@ -14,8 +14,8 @@ const headingCity = document.getElementById("heading-city-name");
 const dateInformation = document.getElementById("date-information");
 const degreeInformation = document.getElementById("degree-information");
 const descriptionInformation = document.getElementById("description-information");
-const highTemp = document.getElementById("high-information");
-const lowTemp = document.getElementById("low-information");
+const [highTemp,lowTemp] = [document.getElementById("high-information"),document.getElementById("low-information")];
+const [windSpeed] =[document.getElementById("wind-speed")]
 
 fetch(URL)
 	.then(response => {
@@ -33,8 +33,10 @@ fetch(URL)
         }
         descriptionInformation.textContent = description.charAt(0).toUpperCase() + description.slice(1);
 
-        highTemp.textContent = "High: " + Math.floor(((response.main.temp_max - 273.15) * 9/5) + 32) + "  |  ";
+
+        highTemp.textContent = "High: " + Math.floor(((response.main.temp_max - 273.15) * 9/5) + 32);
         lowTemp.textContent = " Low: " + Math.floor(((response.main.temp_min - 273.15) * 9/5) + 32);
+        windSpeed.textContent = "Wind: " +  response.wind.speed *  2.237 + " mph";
 	})
 
 /*

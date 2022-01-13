@@ -78,6 +78,15 @@ body{
           .col-2{
           width:40%;
           height: 100%;
+       
+          display: flex;
+          justify-content: center;
+
+            .container{
+                width: 50%;
+               
+                text-align: left;
+            }
           
       }
     }

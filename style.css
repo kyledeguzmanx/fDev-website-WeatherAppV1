@@ -95,5 +95,16 @@ body {
 .information-container .weather-grid .col-2 {
   width: 40%;
   height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.information-container .weather-grid .col-2 .container {
+  width: 50%;
+  text-align: left;
 }
 /*# sourceMappingURL=style.css.map */
