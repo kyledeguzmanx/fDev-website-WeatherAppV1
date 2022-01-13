@@ -17,7 +17,7 @@ const descriptionInformation = document.getElementById("description-information"
 const [highTemp,lowTemp] = [document.getElementById("high-information"),document.getElementById("low-information")];
 const [windSpeed,humidity, cloudiness,pressure,visibilityValue] =[document.getElementById("wind-speed"),document.getElementById("humidity"),document.getElementById("cloudiness"),document.getElementById("pressure"),document.getElementById("visibility-value")];
 
-fetch("URL")
+fetch(URL)
 	.then(response => {
 		return response.json();
 	})
