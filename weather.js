@@ -15,7 +15,7 @@ const dateInformation = document.getElementById("date-information");
 const degreeInformation = document.getElementById("degree-information");
 const descriptionInformation = document.getElementById("description-information");
 const [highTemp,lowTemp] = [document.getElementById("high-information"),document.getElementById("low-information")];
-const [windSpeed,humidity, cloudiness,pressure] =[document.getElementById("wind-speed"),document.getElementById("humidity"),document.getElementById("cloudiness"),document.getElementById("pressure")]
+const [windSpeed,humidity, cloudiness,pressure,visibilityValue] =[document.getElementById("wind-speed"),document.getElementById("humidity"),document.getElementById("cloudiness"),document.getElementById("pressure"),document.getElementById("visibility-value")];
 
 fetch(URL)
 	.then(response => {
@@ -30,16 +30,20 @@ fetch(URL)
         let description = response.weather[0].description;
         /*if(description.charAt(description.length-1) != "y"){
             description += "y";
+
+            //haze, few clouds, 
         }*/
         descriptionInformation.textContent = description.charAt(0).toUpperCase() + description.slice(1);
 
-
+        
         highTemp.textContent = "High: " + Math.floor(((response.main.temp_max - 273.15) * 9/5) + 32);
         lowTemp.textContent = " Low: " + Math.floor(((response.main.temp_min - 273.15) * 9/5) + 32);
         windSpeed.textContent = "Wind: " +  response.wind.speed *  2.237 + " mph";
         humidity.textContent = "Humidity " + response.main.humidity + "%";
         cloudiness.textContent = "Cloudiness " + response.clouds.all + "%";
-        pressure.textContent = "Pressure " + (response.main.pressure * 0.02953).toFixed(2) + "in";
+        pressure.textContent = "Pressure " + (response.main.pressure * 0.02953).toFixed(1) + " in";
+        visibilityValue.textContent = "Visibility " + (response.visibility / 1609).toFixed(1) + " mi";
+        
 	})
 
 /*
