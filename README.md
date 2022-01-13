@@ -3,8 +3,6 @@
 ## INTRODUCTION
 A weather website for Los Angeles California built with OpenWeatherMap API. The website will show the location, day, date, temperature, and other weather information. 
 
-Note: Since this project requires a secret API key, the live GitHub site uses placeholder text. As shown in weather.js, this placeholder text gets inserted when the fetch fails. 
-
 ## TECHNOLOGY USED
 - Current Weather Data API by [OpenWeatherMap](https://openweathermap.org/)   
 - Google Fonts 
